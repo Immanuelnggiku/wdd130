@@ -32,13 +32,15 @@ main {
 }
 
 nav a {
-  color: blueviolet;
-  font-size: 1.2em;
+  text-decoration: none;
+  color: #845ec2;
+  font-size: 1em;
 }
 
 nav a:hover {
+  list-style: none;
   background-color: white;
-  color: pink;
+  color: #00c9a7;
 }
 
 nav ul {
@@ -46,6 +48,20 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
+}
+
+nav li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeparagraph3 img {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  max-width: 50% auto;
 }
 
 img {
