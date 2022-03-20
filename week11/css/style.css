@@ -5,10 +5,11 @@ form {
   border: 1px solid greenyellow;
   border-radius: 1em;
   text-align: left;
+  text-shadow: #999;
 }
 
 body {
-  background-color: gold;
+  background-color: greenyellow;
 }
 
 label {
@@ -53,13 +54,13 @@ form li + li {
 
 label {
   display: inline-block;
-  width: 90px;
+  width: 100px;
   text-align: right;
 }
 
 input,
 textarea {
-  font: 1em sans-serif;
+  font: 1em arial;
   width: 300px;
   box-sizing: border-box;
   border: 1px solid #999;
@@ -90,4 +91,5 @@ button {
 
 form {
   background-color: pink;
+  text-decoration: double;
 }
