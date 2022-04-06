@@ -117,7 +117,6 @@ nav li {
   display: inline;
   justify-content: center;
   align-items: center;
-  max-width: 50% auto;
 }
 
 img {
@@ -145,7 +144,6 @@ img {
 /* Section 1*/
 .logo {
   background-color: white;
-  border-radius: 50 50 0 0;
   padding: 0.5em;
   border: 1px solid black;
 }
@@ -167,7 +165,7 @@ img {
 .action {
   background-color: rgba(240, 240, 240, 0.8);
   margin: 1em 3em;
-  padding: 1 em;
+  padding: 1em;
   text-align: center;
   grid-column: 1/2;
   grid-row: 1/2;
@@ -193,7 +191,7 @@ h2 {
 .homerightimg,
 .homeleftimg {
   border: 1px solid #cccccc;
-  padding: 1opx;
+  padding: 1px;
   box-shadow: 5px 5px 5px #999999;
   width: 93%;
 }
@@ -372,19 +370,3 @@ h4 {
   margin-top: 1.7em;
 }
 
-@media screen and(max-width: 550px) {
-  .homegrid {
-    display: block;
-  }
-
-  .homegrid,
-  nav ul {
-    display: block;
-  }
-  .homegrid,
-  nav ul,
-  .banner-box,
-  footer {
-    display: block;
-  }
-}
